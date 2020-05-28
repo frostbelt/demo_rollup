@@ -1,12 +1,12 @@
 {
   "name": "test_rollup",
   "version": "1.0.0",
-  "description": "",
-  "main": "build/helper.js",
+  "description": "rollup 打包 js，注意 rollup 版本",
+  "main": "dist/index.es.js",
   "scripts": {
     "build": "rollup -c"
   },
-  "author": "",
+  "author": "frostbelt",
   "license": "ISC",
   "devDependencies": {
     "babel-preset-es2015-rollup": "^3.0.0",
